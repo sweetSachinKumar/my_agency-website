@@ -58,10 +58,10 @@ const Footer = () => {
                     {/* <p>@ xyz z0xx --- 20xx All rights reserved.</p> */}
                     <div className='flex  gap-4'>
                         {/* <img src="" alt="" /> */}
-                        <a href='https://www.facebook.com/profile.php?id=100031395428219' className='w-8 h-8  border-2 hover:-translate-y-2 transition-all duration-200 flex items-center justify-center rounded-md cursor-pointer'><FaFacebookF /></a>
-                        <a href='https://www.instagram.com/sachinwebmern369/' className='w-8 h-8  border-2 hover:-translate-y-2 transition-all duration-200 flex items-center justify-center rounded-md cursor-pointer'><FaInstagram /></a>
+                        <a href='https://www.facebook.com/profile.php?id=100031395428219' target='_blank' className='w-8 h-8  border-2 hover:-translate-y-2 transition-all duration-200 flex items-center justify-center rounded-md cursor-pointer'><FaFacebookF /></a>
+                        <a href='https://www.instagram.com/sachinwebmern369/' target='_blank' className='w-8 h-8  border-2 hover:-translate-y-2 transition-all duration-200 flex items-center justify-center rounded-md cursor-pointer'><FaInstagram /></a>
                         {/* <a className='w-8 h-8  border-2 hover:-translate-y-2 transition-all duration-200 flex items-center justify-center rounded-md cursor-pointer'><FaTwitter /></a> */}
-                        <a className='w-8 h-8  border-2 hover:-translate-y-2 transition-all duration-200 flex items-center justify-center rounded-md cursor-pointer'><FaLinkedinIn /></a>
+                        <a  href='https://www.linkedin.com/in/sachin-kumar-2728b4287/' target='_blank' className='w-8 h-8  border-2 hover:-translate-y-2 transition-all duration-200 flex items-center justify-center rounded-md cursor-pointer'><FaLinkedinIn /></a>
                     </div>
                 </div>
             </div>

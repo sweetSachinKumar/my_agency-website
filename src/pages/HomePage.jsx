@@ -22,12 +22,12 @@ const HomePage = () => {
 
       <Navbar isActive={isActive} />
       <Home/>
-      <Feature/>
+  
       <Pricing/>
 {/* <MyServicePrice /> */}
       <Gallary />
       
-
+      <Feature/>
       <Procedure/>
       {/* <Banner/> */}
       {/* <Feature/> */}
@@ -35,8 +35,8 @@ const HomePage = () => {
       {/* <Pricing/> */}
       {/* <Newsletter/> */}
       <Footer/>
-  { isActive &&  <div className='fixed bottom-16 right-8 bg-green-600 hover:bg-green-600/90 active:bg-green-600/80 md:w-16 md:h-16 w-10 h-10 flex items-center justify-center  rounded-full'> 
-   <a href='https://api.whatsapp.com/send?phone=+917703849283&text=hey, can you build a website for my shop. give me more information about it' target="_blank" className='text-white md:text-3xl text-xl ' >
+  { isActive &&  <div className='fixed bottom-16 right-8 bg-green-600 hover:bg-green-600/90 active:bg-green-600/80 md:w-16 md:h-16 w-12 h-12 flex items-center justify-center duration-700 rounded-full'> 
+   <a href='https://api.whatsapp.com/send?phone=+917703849283&text=hey, can you build a website for my shop. give me more information about it' target="_blank" className='text-white md:text-3xl text-2xl ' >
  <FaWhatsapp />  
     </a> 
     </div>

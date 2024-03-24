@@ -16,7 +16,7 @@ const Pricing = () => {
       </div>
 
       {/* pricing card  */}
-      <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-10 mt-20 md:w-11/12 mx-auto'>
+      <div  className='grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20 md:w-11/12 mx-auto'>
       { service_planing && <PricingPlan service_planing={service_planing}/>}
       </div>
     </div>
