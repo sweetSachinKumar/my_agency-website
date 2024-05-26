@@ -10,11 +10,11 @@ const Footer = () => {
       ]
     
     return (
-        <nav className=' bg-[#010051]/95 text-white md:px-8 lg:px-14 p-4 max-w-screen-2xl mx-auto '>
+        <nav className=' bg-[#010051]/95ss bg-color4 text-white md:px-8 lg:px-14 p-4 max-w-screen-2xl mx-auto '>
             <div className='my-12  flex flex-col md:flex-row  justify-between  gap-10 '>
 
                 <div className='md:w-1/2 space-y-8'>
-                    <span className='text-white font-semibold mx-2 lg:mx-4 my-2 inline-block text-xl md:text-2xl'> <span className='bg-white ps-2 pe-0.5 text-primary'>Sachin</span> Kumar</span>
+                    <span className='text-white font-semibold mx-2 lg:mx-4 my-2 inline-block text-xl md:text-2xl'> <span className='bg-white ps-2 pe-1 text-primary me-[1px]'>Sachin</span>WebDev</span>
                     <p className=' '>hello, my name is Sachin Kumar. I am professional web Developer. I create web site in Low cost. </p>
                     {/* <div>
                         <input type="email" name="email" id="email" placeholder='Your email...' className='bg-[#9a7af159] py-2 px-4 focus:outline-none' />

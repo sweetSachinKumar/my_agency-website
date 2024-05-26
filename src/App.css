@@ -4,3 +4,13 @@
 body{
     font-family: "Jost", sans-serif;
 }
+
+.pricing ::-webkit-scrollbar-thumb {
+@apply bg-color2 rounded-2xl
+}
+.pricing ::-webkit-scrollbar-track {
+@apply bg-color4/40
+}
+.pricing ::-webkit-scrollbar {
+@apply w-[4px]
+}

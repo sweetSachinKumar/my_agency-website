@@ -8,8 +8,7 @@ const Procedure = () => {
     <div className="container px-5 py-24 mx-auto">
       <div className="flex flex-wrap w-full mb-20">
         <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">How to Start your Project?</h1>
-          <div className="h-1 w-20 bg-purple-500 rounded"> </div>
+          <h1 className="sm:text-3xl text-2xl mb-2 text-color3 font-semibold">How to <span className='bg-color2 py-1 px-0.5'>Start your Project?</span></h1>
         </div>
         <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">are you Ready to make your digital dreams in reality? if yes, then I am very excited to build simplified hi-tech website for your shop.</p>
       </div>
