@@ -36,7 +36,7 @@ const Navbar = ({isActive}) => {
 
           <ul className='md:flex hidden gap-6 lg:gap-12 text-lg'>
             {
-              navItems.map(item => <li key={item.path}><Link to={item.path} spy={true} smooth={true} activeClass='active' className='hover:text-primary/50 duration-200 transition-all cursor-pointer'>{item.link}</Link></li>)
+              navItems.map(item => <li key={item.path}><Link to={item.path} spy={true} smooth={true} activeClass='active' className='hover:text-primary/50 duration-200 transition-all cursor-pointer font-[Poppins]'>{item.link}</Link></li>)
             }
           </ul>
         </div>

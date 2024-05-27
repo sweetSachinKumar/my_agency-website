@@ -29,7 +29,7 @@ const Gallary = () => {
     <section id='gallary'  className=" text-gray-600 body-font">
     <div  className="  container px-5 py-24 mx-auto flex flex-wrap">
       <div className="flex w-full mb-12 flex-wrap" >
-        <h1 className="sm:text-3xl text-2xl font-semibold title-font text-color3 lg:w-1/3 lg:mb-0 mb-4 py-0.5 bg-color2 px-2">Gallary</h1>
+        <h1 className="sm:text-3xl text-2xl font-semibold title-font text-color3 lg:w-1/3 lg:mb-0 mb-4 py-0.5 bg-color2 px-2 font-[Poppins]">Gallary</h1>
         <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-lightG">Here is my some website design. </p>
       </div>
     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-4 md:gap-x-8 max-w-screen-xl mx-auto container'>
@@ -40,7 +40,7 @@ const Gallary = () => {
           <div>
           <img src={item.imgUrl} className='object-cover object-center w-full h-full bg-color2 shadow-sm shadow-color4/30 rounded-sm' alt="" />
           </div>
-          <h3 className='text-lg md:text-xl font-medium text-color4 mt-4'>{item.title}</h3>
+          <h3 className='text-lg md:text-xl font-medium text-color4 mt-4 font-[Poppins]'>{item.title}</h3>
           <p className='text-sm mt-2'>{item.description} </p>
           <div className='mt-6 md:mt-8'>
           <a href={item.websiteLink} target='_blank' 

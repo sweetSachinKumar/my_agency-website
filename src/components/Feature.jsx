@@ -12,7 +12,7 @@ const Feature = () => {
     <div className='py-24 md:px-14 px-4 max-w-screen-2xl mx-auto' id='feature'>
       <div className='flex flex-col lg:flex-row justify-between items-start gap-10'>
         <div className='lg:w-1/4'>
-            <h3 className=' text-color3 font-bold text-3xl lg:w-1/2'>Why we are better than others</h3>
+            <h3 className=' text-color3 font-semibold text-3xl lg:w-1/2 font-[Poppins]'>Why we are better than others</h3>
             <p className='text-base text-color4'>I am focus on client and costomer setisfaction as the ultimate goal for our projects. I create website by coding that helps me to create best features and design in website <span className='font-semibold text-color3/60'>with 100% Guaranteed Quality</span>. My pricing modals are flexible, ensuring that you get the best value from your investment in web development.</p>
             {/* ( HTML, CSS, JavaScript, React.js, Tailwind CSS)  */}
         </div>

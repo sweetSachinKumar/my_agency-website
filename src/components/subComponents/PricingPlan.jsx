@@ -9,11 +9,11 @@ const PricingPlan = ({ service_planing }) => {
       {
         service_planing &&
         service_planing.map((pkg, index) => <div key={index} className='border pb-10 mb:px-6 px-4 rounded-lg shadow-3xl overflow-hidden pt-4'>
-          <div className='bg-color4/95 text-color1 py-4 rounded-md'>
+          <div className='bg-color4/95 mb-0.5 text-color1 py-4 rounded-md'>
             <h3 className=' text-lg md:text-3xl  font-bold text-center'> {pkg.name}</h3>
             <p className='mt-5 text-center text-color2 text-2xl md:text-4xl font-bold'> {pkg.price} &#8377;/month</p>
           </div>
-          <div className='max-h-[260px] overflow-auto bg-slate-50/70 '>
+          <div className='max-h-[260px] min-h-[240px] overflow-auto bg-slate-50/70 '>
 
             <ul className=' mt-4 space-y-2 px-4 '>
               {
