@@ -11,9 +11,9 @@ const Navbar = ({isActive}) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const navItems = [
     {link: "Overview", path:"home"},
-    {link: "Feature", path:"feature"},
     {link: "Pricing", path:"pricing"},
-    {link: "Gallary", path:"gallary"},
+    {link: "Portfolio", path:"gallary"},
+    {link: "Feature", path:"feature"},
   ]
 
   window.addEventListener('scroll', ()=> {

@@ -25,6 +25,7 @@ export const service_planing = [
             "Phone, Email and whatsapp link",
             "1 page in banner",
             "google map in website",
+            "share website on social media for marketing",
             "add 50 Rs in monthly subscription, manage all product from google sheet from your mobile phone or computer",
             "O.T.Pay. : ₹30/product,   ₹100/section,  ₹1000/page ",
             "buy website in 2500Rs, 3500Rs",
@@ -45,6 +46,7 @@ export const service_planing = [
             "unlimited product with whatsapp button ",
             "Phone, Email and whatsapp link",
             "1 Images in banner ", 
+            "share website on social media for marketing",
             "google map in website",
             "O.T.Pay. : 500₹/language, 700₹/banner image,  ₹30/product, ₹100/section,  ₹1000/page ",
             "if you want to buy website (in 12000Rs)"
@@ -60,6 +62,7 @@ export const service_planing = [
             "dark / light mode ",
             "(not supported) 2 multi Language button: in Eglish, hindi, etc. [ *language does not support in google sheet] ",
             "3-6 section ",
+            "share website on social media for marketing",
             "cateogry buttons for show only particular products (less than 100 Products) ",
             "unlimited product with whatsapp button ",
             "Phone, Email and whatsapp link",

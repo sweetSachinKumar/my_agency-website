@@ -4,13 +4,13 @@ body{
 }
 
 .pricing ::-webkit-scrollbar-thumb {
-@apply bg-color2 rounded-2xl
+@apply bg-color3 rounded-2xl
 }
 .pricing ::-webkit-scrollbar-track {
-@apply bg-color4/40
+@apply bg-color4/30
 }
 .pricing ::-webkit-scrollbar {
-@apply w-[4px]
+@apply md:w-[4px] w-[2px]
 }
 
 .slick-slide div {
