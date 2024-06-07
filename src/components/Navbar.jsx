@@ -15,10 +15,6 @@ const Navbar = ({isActive}) => {
     {link: "Pricing", path:"pricing"},
     {link: "Gallary", path:"gallary"},
   ]
-  // const [isActive, setIsActive] = useState(false)
-  // window.addEventListener('scroll', ()=> {
-  //   window.scrollY > 60 ? setIsActive(true): setIsActive(false)
-  // })
 
   window.addEventListener('scroll', ()=> {
     window.scrollY > 60 ? setIsActiveNav(true) : setIsActiveNav(false);

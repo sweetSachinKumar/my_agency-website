@@ -12,3 +12,29 @@ body{
 .pricing ::-webkit-scrollbar {
 @apply w-[4px]
 }
+
+.slick-slide div {
+    @apply sm:mx-2.5 mx-1
+}
+
+
+.slick-slide div {
+    @apply flex items-center justify-center
+}
+
+.slick-slider .slick-arrow {
+ @apply w-[40px] h-[40px] pt-1 rounded-full bg-color4/80  z-[45] transition-all duration-300
+}
+
+
+.slick-slider .slick-arrow:focus,
+.slick-slider .slick-arrow:hover
+{
+ @apply w-[40px] h-[40px] rounded-full bg-color4/95
+}
+.slick-slider .slick-arrow::before {
+ @apply text-color1/80  transition-all duration-200
+}
+.slick-slider .slick-arrow:hover .slick-arrow::before {
+ @apply text-color1/95 
+}

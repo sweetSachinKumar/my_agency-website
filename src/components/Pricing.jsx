@@ -5,6 +5,7 @@ import { service_planing } from './pricing_website'
 
 const Pricing = () => {
 
+
   return (
     <div className='pricing mb:px-14 p-4 max-w-screen-2xl mx-auto py-10' id='pricing'>
       <div className="text-center">
@@ -13,9 +14,13 @@ const Pricing = () => {
         <span className='text-color4/80'>get One Page <strong>Mobile friendly website</strong></span>
       </div>
       {/* pricing card  */}
-      <div  className='grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20 md:w-11/12 mx-auto'>
+      {/* grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20 md:w-11/12 */}
+
+      <div  className='w-[90%] mt-4 md:mt-16 h-full mx-auto'>
       { service_planing && <PricingPlan service_planing={service_planing}/>}
-      </div>
+        </div>
+
+      
     </div>
   )
 }

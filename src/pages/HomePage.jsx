@@ -8,7 +8,6 @@ import Gallary from '../components/Gallary'
 import Procedure from '../components/Procedure'
 import Feature from '../components/Feature'
 import {motion} from 'framer-motion'
-import { FacebookIcon, FacebookShareButton, WhatsappIcon, WhatsappShareButton } from 'react-share';
 
 const HomePage = () => {
 
@@ -19,9 +18,6 @@ const HomePage = () => {
     window.scrollY > 560 ? setIsActive(true): setIsActive(false)
   })
  
-  const shareUrl = "https://sachinwebdev.vercel.app";
-  const title = "this is agency website";
-
   return (
     <>
 
@@ -31,19 +27,6 @@ const HomePage = () => {
       <Pricing/>
 {/* <MyServicePrice /> */}
       <Gallary />
-      <div>
-        <div>
-        <WhatsappShareButton url={shareUrl} title={title} >
-        <WhatsappIcon />
-      </WhatsappShareButton>
-        </div>
-        <div>
-          <FacebookShareButton url={shareUrl} title={title}  >
-            <FacebookIcon />
-          </FacebookShareButton>
-        </div>
-      </div>
-    
       <Feature/>
       <Procedure/>
       {/* <Banner/> */}
