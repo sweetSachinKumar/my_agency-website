@@ -109,7 +109,7 @@ const Gallary = () => {
           <p className='text-sm mt-2'>{item.description} </p>
           <div className='mt-6 md:mt-8'>
           <a href={item.websiteLink} target='_blank' 
-          className='bg-color3/70 shadow-xl shadow-neutral-600/10 hover:shadow-neutral-600/0 text-color1 
+          className='bg-color3 active:bg-color3/80 shadow-xl shadow-neutral-600/10 hover:shadow-neutral-600/0 text-color1 
            text-center  py-1.5 px-8 rounded-md' >go to Website</a>
            </div>
         </div>

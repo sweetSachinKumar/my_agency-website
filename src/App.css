@@ -23,7 +23,7 @@ body{
 }
 
 .slick-slider .slick-arrow {
- @apply w-[40px] h-[40px] pt-1 rounded-full bg-color4/80  z-[45] transition-all duration-300
+ @apply w-[40px] pt-0.5 h-[40px] md:pt-1 rounded-full bg-color4/80  z-[45] transition-all duration-300
 }
 
 
