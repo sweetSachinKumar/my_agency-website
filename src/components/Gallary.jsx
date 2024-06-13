@@ -36,6 +36,11 @@ const Gallary = () => {
   ]
 
 
+  
+ const portfolioContent = {
+  title: "Portfolio",
+  para:"Here is my some awesome website design."
+ }
 
 
 

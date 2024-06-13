@@ -9,7 +9,15 @@ const Home = () => {
   const shareUrl = "https://sachinwebdev.vercel.app";
   const title = "this is agency website";
 
+  const homeContent = {
+    heading: "Professional Web Designer & Developer",
+    para: "Get a Professional website for your  business and we will grow your business with new technologies. <strong>Get Low cost Website Design in Just &#8377;3800.</strong>",
+    btn1Txt:"contact me",
+    btn2Txt: "Share my Website on Social media"
 
+  }
+
+  
   return (
     <section id='home' className="text-color4 lg:pt-12 bg-color3">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">

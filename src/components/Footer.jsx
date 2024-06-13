@@ -10,6 +10,33 @@ const Footer = () => {
         { link: "Gallary", path: "gallary" },
     ]
 
+    const footerContent = {
+        companyName:"<span className='bg-white ps-2 pe-1 text-primary me-[1px]'>Sachin</span>WebDev",
+        companyInto:"hello, my name is Sachin Kumar. I am professional web Developer. I create web site in Low cost.",
+        linkArray: [
+            {
+                heading:"Blogs",
+                arr:[
+                    {linkToGo:"#", txt:"How does it works?"},
+                    {linkToGo:"#", txt:"why should i have website for my shor or business?"},
+                    {linkToGo:"#", txt:"How to use website for my shops?"},
+                    {linkToGo:"#", txt:"What is needed for this?"},
+                ]
+
+            },
+            {
+                heading:"Platform",
+                arr:[
+                    { link: "Overview", path: "home" },
+                    { link: "Feature", path: "feature" },
+                    { link: "Pricing", path: "pricing" },
+                    { link: "Gallary", path: "gallary" }
+                ]
+
+            },
+        ]
+    }
+
     return (
         <nav className=' bg-[#010051]/95ss bg-color4 text-white md:px-8 lg:px-14 p-4 max-w-screen-2xl mx-auto '>
             <div className='my-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 '>

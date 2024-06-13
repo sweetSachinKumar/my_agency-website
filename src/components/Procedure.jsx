@@ -3,12 +3,47 @@ import step1 from '../assets/connect.svg'
 import step2 from '../assets/analysis.svg'
 import step3 from '../assets/devWeb.svg'
 const Procedure = () => {
+
+  const procedureContent = {
+ heading :" How to <span className='bg-color2 py-1 px-0.5'>Start your Project?</span>",
+ para:"are you Ready to make your Online Presence of your shop? if yes, then I am very excited to build simplified hi-tech website for your shop.",
+ steps: [
+  {
+    imgUrl: step1, 
+    stepName:"Step 1:", 
+    stepHeading:"Understand Your Needs", 
+    stepPara:"We will start by discussing your Project requirements to ensure. Through the Conversations, we will be gathering all the necessary details."
+  },
+  {
+    imgUrl: step1, 
+    stepName:"Step 2:", 
+    stepHeading:"Plan & Proposal", 
+    stepPara:"After Understanding your needs, i will give you a detailed plan, including project scope, timeline and cost estimation. This Proposel will be align with your expectations."
+  },
+  {
+    imgUrl: step3, 
+    stepName:"Step 3:", 
+    stepHeading:"Develop & Collaborate", 
+    stepPara:"Upon your approval, I will start developing your website. I will Keep you updated at every milstone. I would  love to have feedback from you throughout the processl"
+  },
+  {
+    imgUrl: step1, 
+    stepName:"Step 1:", 
+    stepHeading:"Understand Your Needs", 
+    stepPara:"We will start by discussing your Project requirements to ensure. Through the Conversations, we will be gathering all the necessary details."
+  },
+ ]
+  }
+
+
   return (
     <section className="text-gray-600 bg-indigo-50 body-font">
     <div className="container px-5 py-24 mx-auto">
       <div className="flex flex-wrap w-full mb-20">
         <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-          <h1 className="sm:text-3xl text-2xl mb-2 text-color3 font-semibold font-[Poppins]">How to <span className='bg-color2 py-1 px-0.5'>Start your Project?</span></h1>
+          <h1 className="sm:text-3xl text-2xl mb-2 text-color3 font-semibold font-[Poppins]">
+            How to <span className='bg-color2 py-1 px-0.5'>Start your Project?</span>
+            </h1>
         </div>
         <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">are you Ready to make your Online Presence of your shop? if yes, then I am very excited to build simplified hi-tech website for your shop.</p>
       </div>

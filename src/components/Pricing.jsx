@@ -5,6 +5,11 @@ import { service_planing } from './pricing_website'
 
 const Pricing = () => {
 
+ const pricingContent = {
+  title: "Here are <span className='bg-color2 px-1'>all our plans</span>",
+  para:"I offer budget-friendly solutions to meet your requirements. choose your best plan without compromising your budget.",
+  miniPara:"get One Page <strong>Mobile friendly website</strong>"
+ }
 
   return (
     <div className='pricing mb:px-14 p-4 max-w-screen-2xl mx-auto py-10' id='pricing'>
