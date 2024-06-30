@@ -32,19 +32,19 @@ const featureContent = {
         {/* featured card  */}
         <div className='lg:w-3/4 w-full'>
            <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 '>
-           <div  className=' cursor-pointer bg-[rgb(255,255,255)]/10 shadow-3xl rounded-[35px] p-8 flex items-center justify-center h-96 hover:-translate-y-5 transition-all duration-300'>
+           <div  className=' bg-[rgb(255,255,255)]/10 shadow-3xl rounded-[35px] p-8 flex items-center justify-center h-96 hover:-translate-y-5 transition-all duration-300'>
                 <div  >
                   <img loading='lazy' src={fchr1} alt="img1" className='max-h-[150px] mx-auto max-w-[150px] border-4'/>
                   <h5 className='text-2xl font-semibold text-color4 px-5 text-center mt-5'>create website in Affordable Price</h5>
                 </div>
             </div>
-            <div  className=' md:mt-16 cursor-pointer bg-[rgb(255,255,255)]/10 shadow-3xl rounded-[35px] p-8 flex items-center justify-center h-96 hover:-translate-y-5 transition-all duration-300'>
+            <div  className=' md:mt-16 bg-[rgb(255,255,255)]/10 shadow-3xl rounded-[35px] p-8 flex items-center justify-center h-96 hover:-translate-y-5 transition-all duration-300'>
                 <div  >
                   <img src={fchr2} alt="img1" className='max-h-[150px] mx-auto max-w-[150px] border-4'/>
                   <h5 className='text-2xl font-semibold text-color4 px-5 text-center mt-5'>Responsive and Mobile Friendly Websites</h5>
                 </div>
             </div>
-            <div className='cursor-pointer  bg-[rgb(255,255,255)]/10 shadow-3xl rounded-[35px] p-8 flex items-center justify-center h-96 hover:-translate-y-5 transition-all duration-300'>
+            <div className=' bg-[rgb(255,255,255)]/10 shadow-3xl rounded-[35px] p-8 flex items-center justify-center h-96 hover:-translate-y-5 transition-all duration-300'>
                 <div >
                   <img src={fchr3} alt="img1" className='max-h-[150px] mx-auto max-w-[150px] border-4'/>
                   <h5 className='text-2xl font-semibold text-color4 px-5 text-center mt-5'>Grow Your costomer</h5>

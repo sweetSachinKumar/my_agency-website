@@ -4,10 +4,9 @@ export const service_planing = [
         price: 100,
         description: "",
         listOffer: [
-        
-            "3-4 section only", 
+          "3-4 section only", 
             "only 1 image in banner",
-            " Upto 12  product only",
+            " Upto 14  product only",
             "up to 4 icons",
             "only one or two whatsApp link", 
             "add 50 Rs in monthly subscription then you can  manage all product from google sheet, from your mobile phone or computer",
@@ -16,7 +15,7 @@ export const service_planing = [
     },
     {
         name: "Silver plan",
-        price: 200,
+        price: 300,
         description: "",
         listOffer: [
             "1 e-commerce feature (add to wish list or product detail)",
@@ -37,13 +36,13 @@ export const service_planing = [
     },
     {
         name: "Gold plan",
-        price: 300,
+        price: 400,
         description: "",
         listOffer: [
             "dark/light mode",
             "only 2 Language button: in Eglish, hindi, etc.",
             "3-6 section ",
-            "unlimited product with whatsapp button ",
+            "20-25 product with whatsapp button ",
             "Phone, Email and whatsapp link",
             "1 Images in banner ", 
             "share website on social media for marketing",
@@ -60,7 +59,7 @@ export const service_planing = [
         listOffer: [
             "2 e-commerce feature (add to wish list and product detail)",
             "dark / light mode ",
-            "(not supported) 2 multi Language button: in Eglish, hindi, etc. [ *language does not support in google sheet] ",
+            "2 multi Language button: in Eglish, hindi, etc.",
             "3-6 section ",
             "share website on social media for marketing",
             "cateogry buttons for show only particular products (less than 100 Products) ",
