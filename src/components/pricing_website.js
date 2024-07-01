@@ -27,8 +27,7 @@ export const service_planing = [
             "share website on social media for marketing",
             "add 50 Rs in monthly subscription, manage all product from google sheet from your mobile phone or computer",
             "O.T.Pay. : ₹30/product,   ₹100/section,  ₹1000/page ",
-            "buy website in 2500Rs, 3500Rs",
-            "(buy website: 1400 Rs)"
+            "(buy website: 13500 Rs)"
 
 
 
@@ -41,6 +40,7 @@ export const service_planing = [
         listOffer: [
             "dark/light mode",
             "only 2 Language button: in Eglish, hindi, etc.",
+            "Product filter functionality (such as birthday, anniversary)",
             "3-6 section ",
             "20-25 product with whatsapp button ",
             "Phone, Email and whatsapp link",
@@ -48,7 +48,7 @@ export const service_planing = [
             "share website on social media for marketing",
             "google map in website",
             "O.T.Pay. : 500₹/language, 700₹/banner image,  ₹30/product, ₹100/section,  ₹1000/page ",
-            "(buy website: 1600 Rs)"
+            "(buy website: 16000 Rs)"
 
         ]
     },
@@ -60,16 +60,17 @@ export const service_planing = [
             "2 e-commerce feature (add to wish list and product detail)",
             "dark / light mode ",
             "2 multi Language button: in Eglish, hindi, etc.",
+            "advance  Product filter functionality",
+            "cateogry buttons for show only particular products (less than 100 Products) ",
             "3-6 section ",
             "share website on social media for marketing",
-            "cateogry buttons for show only particular products (less than 100 Products) ",
             "unlimited product with whatsapp button ",
             "Phone, Email and whatsapp link",
             "2-4 Images in banner with carosel", 
             "google map in website",
             "add 50 Rs in monthly subscription, manage all product from google sheet from your mobile phone or computer",
             "O.T.Pay. : 500₹/language, 700₹/banner_image, ₹100/section,  ₹1500/page ",
-            "(buy website: 2400 Rs )"
+            "(buy website: 24000 Rs )"
 
         ]
     },
