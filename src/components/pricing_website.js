@@ -10,7 +10,7 @@ export const service_planing = [
             "up to 4 icons",
             "only one or two whatsApp link", 
             "add 50 Rs in monthly subscription then you can  manage all product from google sheet, from your mobile phone or computer",
-            "if you want to buy website (in 2500Rs, 3500Rs)"
+            "(buy website: 8000 Rs)"
         ]
     },
     {
@@ -28,7 +28,7 @@ export const service_planing = [
             "add 50 Rs in monthly subscription, manage all product from google sheet from your mobile phone or computer",
             "O.T.Pay. : ₹30/product,   ₹100/section,  ₹1000/page ",
             "buy website in 2500Rs, 3500Rs",
-            "if you want to buy website (in 7500Rs, 8500Rs)"
+            "(buy website: 1400 Rs)"
 
 
 
@@ -48,7 +48,7 @@ export const service_planing = [
             "share website on social media for marketing",
             "google map in website",
             "O.T.Pay. : 500₹/language, 700₹/banner image,  ₹30/product, ₹100/section,  ₹1000/page ",
-            "if you want to buy website (in 12000Rs)"
+            "(buy website: 1600 Rs)"
 
         ]
     },
@@ -69,7 +69,7 @@ export const service_planing = [
             "google map in website",
             "add 50 Rs in monthly subscription, manage all product from google sheet from your mobile phone or computer",
             "O.T.Pay. : 500₹/language, 700₹/banner_image, ₹100/section,  ₹1500/page ",
-            "if you want to buy website (in 20000Rs, 23000Rs)"
+            "(buy website: 2400 Rs )"
 
         ]
     },
